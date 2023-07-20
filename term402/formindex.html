@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fonts/font.css";>
     <link rel="stylesheet" href="style.css";>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>loginForm</title>
 </head>
 <body>
     <section class="login">
-        <h1>فرم مشخصات</h1>
+        <h1>
+            <i class="fa fa-pencil"></i>
+            فرم مشخصات
+        </h1>
     <form class="form" action="">
         <label for="name">نام:</label>
         <input class="textbox" type="text" name="neme" id="name">
         <label for="lname">نام خانوادگی:</label>
         <input class="textbox" type="text" name="lneme" id="lname"><br><br>
+
         <label for="birthday">تاریخ تولد:</label>
         <input class="textbox" type="date" id="birthday" name="birthday"><br><br>
+
         <label for="job">تحصیلات:</label><br>
         <label for="student">دانش آموز</label>
         <input type="radio" id="student" name="job" value="student">
@@ -27,7 +33,16 @@
         <label for="lisanss">لیسانس</label>
         <input type="radio" id="lisanss" name="job" value="lisanss">
         <label for="master">فوق لیسانس</label>
-        <input type="radio" id="master" name="job" value="master"><br>
+        <input type="radio" id="master" name="job" value="master"><br><br>
+
+        <label>کدام زبان های برنامه نویسی را آموخته اید؟</label><br>
+        <label for="html"> html</label>
+        <input type="checkbox" id="html" name="program" value="html"><br>
+        <label for="css"> css</label>
+        <input type="checkbox" id="css" name="program" value="css"><br>
+        <label for="javascript"> javascript</label>
+        <input type="checkbox" id="javascript" name="program" value="javascript"><br>
+
         <input type="submit" value="Submit">
         </form>
     </section>
