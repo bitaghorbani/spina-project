@@ -3,4 +3,25 @@
 }
 body{
     direction: rtl;
+    text-align: center;
+}
+.login{
+    width:60%;
+    /*background-image: linear-gradient(to top left, #32e74af6 0%, #346643f3 100% );*/
+    background-image: url("image/background-login.jpg");
+    margin-right: 22%;
+    opacity: 0.7;
+    color: white;
+    margin-top: 12%;
+}
+.form{
+    padding-top: 20px;
+}
+.textbox{
+    background-color: rgba(85, 85, 85, 0.733);
+    border: none;
+}
+.textbox:hover{
+    border-color: rgb(251, 248, 253);
+    border-radius: 3px;
 }
