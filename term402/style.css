@@ -12,7 +12,7 @@ body{
     margin-right: 27%;
     opacity: 0.8;
     color: white;
-    margin-top: 12%;
+    margin-top: 7%;
     border-radius: 4px;
 }
 .form{
@@ -22,9 +22,20 @@ body{
     background-color: rgba(85, 85, 85, 0.733);
     border: none;
     color: blanchedalmond;
+    border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .textbox:hover{
-    border-color: rgb(251, 248, 253);
+    box-shadow: rgba(255, 192, 163, 0.404) 0px 19px 38px, rgba(255, 183, 135, 0.438) 0px 15px 12px;
+}
+.submit{
+    background-color: rgb(255, 201, 150);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
     border-radius: 3px;
+    margin-bottom: 5px;
+}
+.submit:hover{
+    box-shadow: rgba(255, 255, 255, 0.644) 0px 19px 38px, rgba(255, 255, 255, 0.678) 0px 15px 12px;
 }
