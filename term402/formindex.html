@@ -9,11 +9,26 @@
 </head>
 <body>
     <section class="login">
+        <h1>فرم مشخصات</h1>
     <form class="form" action="">
         <label for="name">نام:</label>
         <input class="textbox" type="text" name="neme" id="name">
         <label for="lname">نام خانوادگی:</label>
         <input class="textbox" type="text" name="lneme" id="lname"><br><br>
+        <label for="birthday">تاریخ تولد:</label>
+        <input class="textbox" type="date" id="birthday" name="birthday"><br><br>
+        <label for="job">تحصیلات:</label><br>
+        <label for="student">دانش آموز</label>
+        <input type="radio" id="student" name="job" value="student">
+        <label for="collegian">دانشجو</label>
+        <input type="radio" id="collegian" name="job" value="collegian">
+        <label for="diploma">دیپلم</label>
+        <input type="radio" id="diploma" name="job" value="diploma">
+        <label for="lisanss">لیسانس</label>
+        <input type="radio" id="lisanss" name="job" value="lisanss">
+        <label for="master">فوق لیسانس</label>
+        <input type="radio" id="master" name="job" value="master"><br>
+        <input type="submit" value="Submit">
         </form>
     </section>
 </body>

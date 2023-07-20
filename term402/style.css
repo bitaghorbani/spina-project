@@ -10,9 +10,10 @@ body{
     /*background-image: linear-gradient(to top left, #32e74af6 0%, #346643f3 100% );*/
     background-image: url("image/background-login.jpg");
     margin-right: 22%;
-    opacity: 0.7;
+    opacity: 0.8;
     color: white;
     margin-top: 12%;
+    border-radius: 4px;
 }
 .form{
     padding-top: 20px;
@@ -20,6 +21,7 @@ body{
 .textbox{
     background-color: rgba(85, 85, 85, 0.733);
     border: none;
+    color: blanchedalmond;
 }
 .textbox:hover{
     border-color: rgb(251, 248, 253);
