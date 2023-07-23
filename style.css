@@ -6,10 +6,10 @@ body{
     text-align: center;
 }
 .login{
-    width:50%;
+    width:65%;
     /*background-image: linear-gradient(to top left, #32e74af6 0%, #346643f3 100% );*/
     background-image: url("image/background-login.jpg");
-    margin-right: 27%;
+    margin-right: 17%;
     opacity: 0.8;
     color: white;
     margin-top: 7%;
@@ -40,9 +40,9 @@ body{
     box-shadow: rgba(255, 255, 255, 0.644) 0px 19px 38px, rgba(255, 255, 255, 0.678) 0px 15px 12px;
 }
 .signUp{
-    background-image: linear-gradient(to top left, #0b0994f6 0%, #4661daf3 100% );
-    width:50%;
-    margin-right: 27%;
+    background-image: linear-gradient(to top left, #4e4ce4f6 0%, #011d9bf3 100% );
+    width:65%;
+    margin-right: 17%;
     opacity: 0.8;
     color: white;
     margin-top: 7%;
