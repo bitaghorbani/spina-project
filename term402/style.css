@@ -39,3 +39,12 @@ body{
 .submit:hover{
     box-shadow: rgba(255, 255, 255, 0.644) 0px 19px 38px, rgba(255, 255, 255, 0.678) 0px 15px 12px;
 }
+.signUp{
+    background-image: linear-gradient(to top left, #0b0994f6 0%, #4661daf3 100% );
+    width:50%;
+    margin-right: 27%;
+    opacity: 0.8;
+    color: white;
+    margin-top: 7%;
+    border-radius: 4px;
+}
