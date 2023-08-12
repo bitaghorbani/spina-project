@@ -28,3 +28,20 @@ console.log(p);
 const u = "7"
 let o = 1 + 2 + Number(u) + 3;
 console.log(o);
+
+let d = "8"
+console.log('out1' , d);
+{
+    console.log('out2' , d);
+}
+console.log('out3' , d);
+
+
+{
+    let s = "5"
+console.log('out1' , s);
+}
+/*{
+    console.log('out2' , s);
+}
+console.log('out3' , s);*/
