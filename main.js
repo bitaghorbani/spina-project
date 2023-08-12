@@ -34,6 +34,7 @@ console.log('out1' , d);
 {
     console.log('out2' , d);
 }
+d = "6";
 console.log('out3' , d);
 
 
