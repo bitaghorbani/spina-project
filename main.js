@@ -21,3 +21,10 @@ let i = "3" + 2 + 4;
 console.log(i);
 i = 2 + 4 + "3";
 console.log(i);
+
+let p = "Spina" + " " + "School";
+console.log(p);
+
+const u = "7"
+let o = 1 + 2 + Number(u) + 3;
+console.log(o);
