@@ -66,3 +66,10 @@ console.log(arr2[0]);
 
 //object
 const bio = {fname : "bita", age : "15", math : arr2};
+
+const person = {
+    firstName : "bita",
+    lastName  : "ghorbani",
+    age : 15
+  };
+  console.log("i am" + " " + person.firstName + " " + person.lastName + " " + person.age + " years old.");
