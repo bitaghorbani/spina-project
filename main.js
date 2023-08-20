@@ -46,3 +46,12 @@ console.log('out1' , s);
     console.log('out2' , s);
 }
 console.log('out3' , s);*/
+
+//Booleans : 1-true 2-false
+let q = true;
+console.log(q);
+let n = false;
+console.log(n);
+
+let s;
+console.log(s);
