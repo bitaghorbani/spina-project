@@ -4,6 +4,7 @@
 body{
     direction: rtl;
     text-align: center;
+    color: pi;
 }
 .login{
     width:65%;
