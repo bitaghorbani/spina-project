@@ -55,3 +55,14 @@ console.log(n);
 
 let s;
 console.log(s);
+
+const a = ""; //empty string
+
+const arr = ["red", "blue", "black", "yellow", "pink"];
+console.log(arr[1]);
+const arr2 = ["=", "+=", "-=", "*=", "**=", "/=", "%="];
+console.log(arr2[5]);
+console.log(arr2[0]);
+
+//object
+const bio = {fname : "bita", age : "15", math : arr2};
