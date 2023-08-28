@@ -74,6 +74,9 @@ const person = {
   };
   console.log("i am" + " " + person.firstName + " " + person.lastName + " " + person.age + " years old.");
 
+
+
+  
 //single or double quotes:
 let example1 = "Hi i'm bita";
 let example2 = "i am '15' years old.";
@@ -95,3 +98,36 @@ console.log('a1:', a1);
 
 const a2 = 'it\'s sunny today.'
 console.log('a2:', a2);
+
+const a3 = "The character \\ is called backslash."
+console.log('a3:', a3);
+
+//Breaking Long Code Lines:
+const break1 = "Hello \
+Bita!";
+console.log(break1);
+
+const break2 = "Hello " +
+"Bita!";   //روش بهتر برای شکستن خط
+console.log(break2);
+
+/* const break3 = \
+"Hello Bita!";
+نمی توان با \ یک خط کد را جدا کنیم.
+*/
+
+//Strings as Objects:
+const type = {
+ X : "School",
+// Y is an object:
+ Y : new String("Spina")
+}
+console.log("X:" + typeof type.X + "  " + "Y:" + typeof type.Y);
+
+const W = "welcome";
+const Z = new Number("5")
+console.log(W==Z);
+
+const W1 = "welcome";
+const Z1 = new String("bita")
+console.log(W1==Z1);
