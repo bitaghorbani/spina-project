@@ -79,3 +79,19 @@ let example1 = "Hi i'm bita";
 let example2 = "i am '15' years old.";
 let example3 = 'i am learning "programming"';
   console.log(example1, example2, example3);
+
+// String Length:
+const one = "programming with Spina School";
+const O = one.length;
+console.log('O', O);
+
+const fullName = "Bita Ghorbani";
+const F = fullName.length;
+console.log('F', F);
+
+// backslash:
+const a1 = "if you want it.\"work\" for it.";
+console.log('a1:', a1);
+
+const a2 = 'it\'s sunny today.'
+console.log('a2:', a2);
