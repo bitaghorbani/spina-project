@@ -78,4 +78,4 @@ const person = {
 let example1 = "Hi i'm bita";
 let example2 = "i am '15' years old.";
 let example3 = 'i am learning "programming"';
-  console.log(example1 + "<br>" + example2 + "<br>" + example3);
+  console.log(example1, example2, example3);
