@@ -73,3 +73,9 @@ const person = {
     age : 15
   };
   console.log("i am" + " " + person.firstName + " " + person.lastName + " " + person.age + " years old.");
+
+//single or double quotes:
+let example1 = "Hi i'm bita";
+let example2 = "i am '15' years old.";
+let example3 = 'i am learning "programming"';
+  console.log(example1 + "<br>" + example2 + "<br>" + example3);
