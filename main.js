@@ -131,3 +131,21 @@ console.log(W==Z);
 const W1 = "welcome";
 const Z1 = new String("bita")
 console.log(W1==Z1);
+console.log("Z1:",typeof Z1);
+
+//String Methods:
+const fruit = "Apple, ‌Banana, Strawberry";
+console.log(fruit.slice(0,5));
+console.log(fruit.slice(6,17));
+console.log(fruit.slice(16));
+
+console.log(fruit.substring(1,6));
+console.log(fruit.substring(-2)); // مقدار های کمتر از 0 را همان 0 در نظر میگیرد.
+
+console.log(fruit.substr(2,4));
+
+const fruit2 = fruit.replace("Apple", "Orange");
+console.log("fruit2: ", fruit2);
+/* const fruit3 = fruit.replace("APPLE", "Orange");  ==>   replace method is case sensitive.
+console.log("fruit3: ", fruit3);*/   
+
