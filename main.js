@@ -134,7 +134,7 @@ console.log(W1==Z1);
 console.log("Z1:",typeof Z1);
 
 //String Methods:
-const fruit = "Apple, ‌Banana, Strawberry";
+const fruit = "Apple, ‌Banana, Strawberry, Apple";
 console.log(fruit.slice(0,5));
 console.log(fruit.slice(6,17));
 console.log(fruit.slice(16));
@@ -148,4 +148,10 @@ const fruit2 = fruit.replace("Apple", "Orange");
 console.log("fruit2: ", fruit2);
 /* const fruit3 = fruit.replace("APPLE", "Orange");  ==>   replace method is case sensitive.
 console.log("fruit3: ", fruit3);*/   
+const fruit3 = fruit.replace(/APPLE/i, "Peach");
+console.log("fruit3: ", fruit3);
 
+const fruit4 = fruit.replace(/Apple/g, "Orange");
+console.log("fruit4: ", fruit4);
+
+//replaceAll:
