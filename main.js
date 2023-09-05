@@ -155,3 +155,34 @@ const fruit4 = fruit.replace(/Apple/g, "Orange");
 console.log("fruit4: ", fruit4);
 
 //replaceAll:
+const work = "If you want It.work for It.";
+console.log(work.replaceAll("It", "it"));
+
+console.log("toUpperCase:  ", work.toUpperCase()); // تبدیل به حروف بزرگ
+console.log("toLowerCase:  ", work.toLowerCase()); // تبدیل به حروف کوچک
+
+//String concat():
+const text0 = "Hello";
+const text1 = "World";
+console.log(text0.concat(" ", text1)); // ==>  text = "Hello" + " " + "World";
+
+//String trim:
+const trim0 = "    Bita     ";
+console.log(trim0.length);
+const trim1 = text0.trim();
+console.log("trim:", trim1.length);
+console.log("trimStart:", trim0.trimStart().length);
+console.log("trimEnd:", trim0.trimEnd().length);
+
+const At = "SpinaSchool";
+console.log(At.length);
+console.log("charAt(3):", At.charAt(3));
+console.log(At.charCodeAt(3)); /* یونیکد یک کاراکتر را در موقعیت مشخص بر می گرداند
+ که در UTF-16(یک عدد صحیح بین 0 و 65535)را بر می گرداند*/
+console.log("Property Access:", At[0]);
+
+//String can be converted to an array:
+let cart0 = "a, b, c, d, e";
+const myArray = cart0.split("");
+console.log(myArray[6]);
+
