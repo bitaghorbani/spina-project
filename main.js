@@ -186,3 +186,8 @@ let cart0 = "a, b, c, d, e";
 const myArray = cart0.split("");
 console.log(myArray[6]);
 
+const of = "Spina school.  is a programming school.";
+console.log(of.indexOf("school")); //از کاراکتر 6ام شروع میشه.
+console.log(of.lastIndexOf("school"));
+console.log(of.search("programming")); // programming از کجا شروع میشه؟
+console.log(of.startsWith("Spina"));
