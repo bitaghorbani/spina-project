@@ -191,3 +191,20 @@ console.log(of.indexOf("school")); //از کاراکتر 6ام شروع میشه
 console.log(of.lastIndexOf("school"));
 console.log(of.search("programming")); // programming از کجا شروع میشه؟
 console.log(of.startsWith("Spina"));
+
+const myNeme = `Bita`; // به جای ""از back-tics می توان استفاده کرد.
+console.log(myNeme);
+
+const myName1 = `my name is
+Bita`;
+console.log(myName1);
+
+let math = 4.14759;
+console.log(
+  math.toFixed(0) + " " +
+  math.toFixed(1) + " " +
+  math.toFixed(2)
+  );
+
+const cars = new Array ("BMW, Volvo, Saab");
+console.log("cars:", cars);
