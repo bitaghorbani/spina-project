@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/font.css";>
+    <link rel="icon" type="image/x-icon" href="image/coffeeEspresso.ico">
+    <link rel="stylesheet" href="style1.css";>
+    <title>Coffee</title>
+</head>
+<body dir="rtl">
+    <img src="image/coffee.jpg" style="width: 100px; float: right;">
+    <form id="form" role="search">
+        <input type="search" id="query" name="q"
+        placeholder="جست و جو..."
+        aria-label="Search through site content">
+      </form>
+      <img src="image/menu.jpg" style="width: 110px; float: left;">
+    <form class="form" action="https://www.w3schools.com/action_page.php" target="_blank"  method="post">
+    <table>
+        <tr>
+          <th>نوشیدنی گرم</th>
+          <th>توضیحات</th>
+        </tr>
+        <tr>
+            <td>
+                <div id="coffee0"></div>
+            </td>
+            <td>
+                <label for="double">دوبل</label>
+                <input type="checkbox" id="double" name="double" value="double">
+                <label for="espresso0">تعداد:</label>
+                <select class="textbox" id="espresso0" name="espresso0">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+          </select>
+          <div id="coffee-e"></div><br><br>
+                <label for="espresso">اسپرسو</label>
+                <input type="checkbox" id="espresso" name="espresso" value="espresso">
+                <label for="espresso0-1">تعداد:</label>
+                <select class="textbox" id="espresso0-1" name="espresso0-1">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+          </select>
+          <div id="coffee-es"></div>
+          <img src="image/espresso.jpg" style="border-radius: 50px; width: 120px; float: left;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="coffee1"></div>
+            </td>
+            <td>
+                <label for="cappuccino">تعداد:</label>
+                <select class="textbox" id="cappuccino" name="cappuccino">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+          </select>
+                <div id="coffee-c"></div>
+                <img src="image/cappuccino.jpg" style="border-radius: 50px; width: 120px; height: 120px; float: left;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="coffee2"></div>
+            </td>
+            <td>
+                <label for="hotChocolate">تعداد:</label>
+                <select class="textbox" id="hotChocolate" name="hotChocolate">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+          </select>
+                <div id="coffee-hot"></div>
+                <img src="image/hotChocolate.jpg" style="border-radius: 50px; width: 120px; height: 120px; float: left;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="coffee3"></div>
+            </td>
+            <td>
+                <label for="turkCoffee">تعداد:</label>
+                <select class="textbox" id="turkCoffee" name="turkCoffee">
+                    <option value="0" selected>0</option>
+                    <option value="1" >1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+          </select>
+                <div id="coffee-turk"></div>
+                <img src="image/turkCoffee.jpg" style="border-radius: 50px; width: 120px; height: 120px; float: left;">
+            </td>
+        </tr>
+</table>      
+        <input class="submit" type="submit" value="ثبت سفارش">
+</form>
+<script>
+        const coffee = ["اسپرسو", "کاپوچینو", "هات چاکلت", "قهوه ترک" ];
+        console.log(coffee);
+        console.log("length of array:", coffee.length)
+        console.log("____________________________________________________________");
+
+        const c = coffee[0];
+        console.log(c);
+        console.log("____________________________________________________________");
+        coffee.forEach(item => console.log(item));
+        console.log("____________________________________________________________");
+        coffee.forEach(item => console.log(item.length));
+        console.log("____________________________________________________________");
+
+        let spanElement = '';
+        coffee.forEach((item, index) => {
+            spanElement += "<span>" + item + "</span><br/>"
+        });
+        //_______________________________________________________________________
+        console.log(spanElement);
+        document.getElementById('coffee0').innerHTML = coffee[0];
+        document.getElementById('coffee1').innerHTML = coffee[1];
+        document.getElementById('coffee2').innerHTML = coffee[2];
+        document.getElementById('coffee3').innerHTML = coffee[3];
+         //_______________________________________________________________________
+        const espresso = {price2: 'Double: تومان45000', price1: 'single: تومان30000'};
+        document.getElementById('coffee-e').innerHTML = espresso.price2;
+        document.getElementById('coffee-es').innerHTML = espresso.price1;
+         //_______________________________________________________________________
+        const cappuccino = {price: '35000تومان'};
+        document.getElementById('coffee-c').innerHTML = cappuccino.price;
+         //_______________________________________________________________________
+        const hotChocolate = {price: '70000تومان'};
+        document.getElementById('coffee-hot').innerHTML = hotChocolate.price;
+         //_______________________________________________________________________
+        const turkCoffee = {price: '24000تومان'};
+        document.getElementById('coffee-turk').innerHTML = turkCoffee.price;
+    </script>
+</body>
+</html>
